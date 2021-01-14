@@ -1,0 +1,255 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*--------------------------------------------基本設定-------------------------------------*/
+html {
+  margin: 0;
+}
+
+body {
+  font-family: "メイリオ", "Hiragino Kaku Gothic", "sans-serif";
+  margin: 0;
+}
+
+h1,
+h2,
+p {
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-family: "Alegreya Sans", sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-size: 60px;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+h2 {
+  font-size: 24px;
+  color: #fff;
+}
+
+p {
+  color: #fff;
+  width: 50vw;
+}
+
+ul {
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  font-family: italic;
+  font-size: 16px;
+  color: #fff;
+}
+
+.w-nomal {
+  word-break: keep-all;
+}
+
+nav {
+  display: flex;
+}
+
+nav li {
+  display: inline-block;
+  margin: 20px;
+}
+
+nav a {
+  color: #fff;
+}
+
+small {
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+  color: #fff;
+}
+
+.header_nav {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  color: #fff;
+  width: 100%;
+  background-color: #000;
+}
+
+/*----------------------------------------トップページ-----------------------------------------------*/
+img.bgmaximage {
+  position: fixed !important;
+  display: none;
+}
+
+/*------------------------------------------top.html----------------------------------------*/
+.top {
+  position: absolute;
+  bottom: 40px;
+  right: 20px;
+  z-index: 50;
+  color: #fff;
+  display: none;
+}
+
+.top h1,
+.top ul {
+  text-align: right;
+}
+
+li {
+  list-style-type: none;
+}
+
+.menu ul li {
+  width: 250px;
+  margin: 0 0 0 auto;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+/*----------------------------------------about.html-----------------------------------------*/
+/*basic information*/
+.title {
+  margin-left: 20px;
+}
+
+.myself {
+  text-align: left;
+  margin-left: 20px;
+  color: #fff;
+}
+
+.text {
+  font-size: 18px;
+  display: none;
+}
+
+.hobby {
+  text-align: left;
+  margin-left: 20px;
+  color: #fff;
+}
+
+.part2 {
+  margin: 0;
+  background-color: skyblue;
+  background-size: cover;
+}
+
+.part3 {
+  margin: 0;
+  background-image: url(../images/wood.jpg);
+  background-size: cover;
+}
+
+/*-----------------------------------------carrer-------------------------------------------*/
+.school {
+  margin-left: 20px;
+}
+
+.school li,
+.school p {
+  color: #fff;
+  font-size: 18px;
+}
+
+.school li {
+  font-family: cursive;
+}
+
+.school p {
+  margin-left: 20px;
+}
+
+.career {
+  margin-left: 20px;
+}
+
+.part4,
+.part5 {
+  margin: 0;
+  background-image: url(../images/bord.png);
+  background-size: cover;
+}
+
+.part5 h2 {
+  margin-top: 20px;
+}
+
+/*-------------------------------------futuregoal------------------------------------------*/
+.part6 {
+  background-image: url(../images/bluesky.jpg);
+  background-size: cover;
+  opacity: 0.7;
+}
+
+.part7 {
+  background-color: #ae8dbc;
+}
+
+blockquote {
+  position: relative;
+  padding: 15px 15px 10px 15px;
+  box-sizing: border-box;
+  font-style: italic;
+  background: #f5f5f5;
+  color: #777777;
+  border-left: 4px solid #9dd4ff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.14);
+  margin: 20px 20px 0 0;
+}
+
+blockquote:before {
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  vertical-align: middle;
+  font-family: "Font Awesome 5 Free";
+  color: #9dd4ff;
+  font-size: 28px;
+  line-height: 1;
+}
+
+blockquote p {
+  padding: 0;
+  margin: 7px 0;
+  line-height: 1.7;
+  color: #000;
+  width: 100%;
+  font-style: italic;
+}
+
+blockquote cite {
+  display: block;
+  text-align: right;
+  color: #888888;
+  font-size: 0.9em;
+}
+
+.word {
+  margin-left: 20px;
+}
+
+.sky {
+  margin-left: 20px;
+}
+
+.link {
+  background-color: #6490cd;
+}
+
+.link p {
+  display: inline-block;
+  margin: 20px;
+  align-items: center;
+}

@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>About Me</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!--Maximage CSS-->
+    <link rel="stylesheet" href="css/jquery.maximage.css" type="text/css" media="screen" title="CSS" charset="utf-8" />
+    <!--Vegas2 CSS-->
+    <link rel="stylesheet" href="http://jaysalvat.github.io/vegas/releases/latest/vegas.min.css">
+    <!--fullPage CSS-->
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css">
+    <!--my stylesheet-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--google font CSS-->
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|IBM+Plex+Sans+Condensed" rel="stylesheet">
+
+    <!--jQuery Engine-->
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+    <script src="js/jquery.cycle.all.js" type="text/javascript"></script>
+    <script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
+    <script src="js/jquery.maximage.min.js" type="text/javascript"></script>
+    <script src="js/jquery.fullPage.js"></script>
+    <script>
+        $(function () {
+            $('#maximage').maximage();
+            $('#fullpage').fullpage();
+            $('.part2').mouseover(function () {
+                $('.t1').fadeIn(2000);
+            });
+            $('.part3').mouseover(function () {
+                $('.t2').fadeIn(2000);
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <article>
+        <div id="fullpage">
+            <div class="section">
+                <h1>
+                    <div class="title">ABOUT ME</div>
+                </h1>
+                <div id="maximage">
+                    <img src="images/headphone.jpg" class="bgmaximage">
+                    <img src="images/mah_jong.jpg" class="bgmaximage">
+                    <img src="images/soccer.jpg" class="bgmaximage">
+                    <img src="images/cafe.jpg" class="bgmaximage">
+                </div>
+            </div>
+            <div class="section part2">
+                <div class="text t1">
+                    <div class="myself">
+                        <h1>Basic information</h1>
+                        <li>名前：濵口　陽平(はまぐち　ようへい)</li>
+                        <li>生年月日：1988年8月9日</li>
+                        <li>血液型：Ａ型</li>
+                        <li>出身地：大阪府</li>
+                        <li>経験：自治体向けパッケージの保守・改修、その他各種テスト作業etc...</li>
+                        <li>経験言語：Java,JSP,JavaScript,PHP,Python,SQL</li>
+                        <br>
+                        <br>
+                        <p class="w-nomal">出生地は名古屋(だそう)です。物心がついたころには大阪府で暮らしていました。
+                            大阪府の登美丘高校を卒業。
+                            大学生の時に大阪市内で一人暮らしを始めました。
+                            その後長いフリーター生活を経てIT業界で働くことになりました。<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="section part3">
+                <div class="hobby">
+                    <div class="text t2">
+                        <h1>My Favorite</h1>
+                        <br>
+                        <li>海外サッカー</li>
+                        <li>読書</li>
+                        <li>ネットサーフィン</li>
+                        <li>公園散策</li>
+                        <li>おでかけ</li>
+                        <br>
+                        <br>
+                        <p class="w-nomal">
+                            最近の休日は少しでも技術レベルを高めるためにもっぱらプログラミングの学習をしています。
+                            プログラミング言語ではPHPやPythonに興味があり、動画サービスなどを活用し、独学で学んでいます。
+                            仕事で使う言語がPHPなのでそれを中心に知識を増やしています。
+                            春や秋など天気の良い日には公園で本を読んだりゆっくりすることがお気に入りです。
+                            その他はSNSを通じて有益な情報を探すことやYouTubeで新しい発見をすることが最近のお気に入りです。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+    <div class="header_nav">
+        <nav>
+            <li><a href="top.html">Top</a></li>
+            <li><a href="career.html">Career</a></li>
+            <li><a href="work.html">Works</a></li>
+            <li><a href="futuregoal.html">Future goals</a></li>
+        </nav>
+    </div>
+
+    <footer>
+        <small>浜口陽平のポートフォリオ</small>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>Top Page</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!--Maximage CSS-->
+    <link rel="stylesheet" href="css/jquery.maximage.css" type="text/css" media="screen" title="CSS" charset="utf-8" />
+    <!--Vegas2 CSS-->
+    <link rel="stylesheet" href="http://jaysalvat.github.io/vegas/releases/latest/vegas.min.css">
+    <!--fullPage CSS-->
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css">
+    <!--my stylesheet-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--google font CSS-->
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|IBM+Plex+Sans+Condensed" rel="stylesheet">
+
+    <!--jQuery Engine-->
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+    <script src="js/jquery.cycle.all.js" type="text/javascript"></script>
+    <script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
+    <script src="js/jquery.maximage.min.js" type="text/javascript"></script>
+    <script src="js/jquery.fullPage.js"></script>
+    <script>
+        $(function () {
+            $('#maximage').maximage();
+            $('#fullpage').fullpage();
+            $('.part4').hover(function () {
+                $('.t3').fadeIn(3000);
+            });
+            $('.part5').hover(function () {
+                $('.t4').fadeIn(3000);
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <article>
+        <div id="fullpage">
+            <div class="section">
+                <div id="maximage">
+                    <img src="images/hours-arrow-black-white-vintage.jpg" class="bgmaximage">
+                    <img src="images/note.jpg" class="bgmaximage">
+                    <img src="images/keybord.jpg" class="bgmaximage">
+                    <img src="images/sky002_day.jpg" class="bgmaximage">
+                </div>
+                <h1>
+                    <div class="title">Career</div>
+                </h1>
+            </div>
+
+            <div class="section part4">
+                <div class="text t3">
+                    <div class="school">
+                        <h1>Academic background</h1>
+                        <ul>
+                            <li>小学校：和泉市立鶴山台南小学校</li>
+                            <li>中学校：和泉市立信太中学校</li>
+                            <li>高校：大阪府立登美丘高等学校　普通科</li>
+                            <li>大学：関西外国語大学　国際言語学部　言語コミュニケーション学科</li>
+                            <li>専門学校：職業訓練のアップ　なんば校　Webクリエーター科</li>
+                        </ul>
+                        <p class="w-nomal">
+                            小・中・高と広く浅く物事を経験してきました。
+                            小学生の時は水泳、サッカー、書道、塾、
+                            中学生の時は野球部、
+                            高校生の時はハンドボール部に所属していました。
+                            大学生の時はフランス語と英語を専攻していました（今は話せませんが）。
+                            スポーツはしなくなりましたが、好きな海外サッカー観戦を中心にいろいろ趣味を増やしました。
+                            また、アルバイトを通じて様々な人と出会うことがてきました。今でも交流がある人たちが多いので私の貴重な財産になっています。
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section part5">
+                <div class="text career t4">
+                    <h1>Work history</h1>
+                    <p class="w-nomal">
+                        高校生から正社員になるまでは、ほとんどの期間アルバイトの仕事をしてきました。
+                        コンビニエンスストアや引越、居酒屋、カラオケボックス、飲食店などを経験しました。
+                    </p>
+                    <h2>初めての正社員</h2>
+                    <p class="w-nomal">
+                        １社目は社会人経験を得る目的で就職することにしました。
+                        建設現場で施工管理の仕事をして体力的にも時間的にも精神的にも辛いものがありました。
+                        建物ができるまでやそれに携わる人々の苦労がとてもわかる仕事でした。
+                        <br>
+                        <br>
+                        ２社目は会計事務所に転職しました。自分に向いているという思いがありましたし、当時よりもより良い環境を目指しました。
+                        主に相続税の業務を中心に申告書の作成や、土地の実測などを担当していました。その他に企業の月次会計データ入力なども経験できました。
+                    </p>
+                    <br>
+                    <h2>現在</h2>
+                    <p class="w-nomal">
+                        現職の話になります。IT業界の将来性や魅力を直感的に感じ転職を試みました。
+                        この業界に入った当初はフロントエンドの仕事に興味があったので、そのための転職活動をしていました。
+                        職業訓練校に通いHTML,CSS,jQuery,Photoshop,Illustratorを学び能力の向上に努めました。
+                        現在は受託開発がメインの会社で勤務させていただいていますが、知識が増えるにつれてジャンル問わず新しい技術や知見を得ていくことに喜びを見出しています。
+                        現在はPHP,Linuxなどサーバーサイドの知識を学習しています。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </article>
+    <div class="header_nav">
+        <nav>
+            <li><a href="top.html">Top</a></li>
+            <li><a href="about.html">Self-Introduction</a></li>
+            <li><a href="work.html">Works</a></li>
+            <li><a href="futuregoal.html">Future goals</a></li>
+        </nav>
+    </div>
+
+</body>
+
+<footer>
+    <small>浜口陽平のポートフォリオ</small>
+</footer>
+
+</html>
